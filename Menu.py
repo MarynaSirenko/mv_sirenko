@@ -30,7 +30,7 @@ while True:
           'Choose section and enter number of it:' + '\n' +
           '1. Read marks a group from file' + '\n' +
           '2. View marks' + '\n' +
-          '3. View marks selected student'+'\n'+
+          '3. View marks of selected student'+'\n'+
           '4. View total mark of selected student')
     num = int(input())
     if num == 1:
