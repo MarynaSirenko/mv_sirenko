@@ -25,9 +25,10 @@ def get_total_mark(info):
     print(name,'total',total_mark)
 
 information = ' '
+print('Welcome!')
 while True:
-    print('Welcome!' + '\n' +
-          'Choose section and enter number of it:' + '\n' +
+    print(
+          '\n'+'Choose section and enter number of it:' + '\n' +
           '1. Read marks a group from file' + '\n' +
           '2. View marks' + '\n' +
           '3. View marks of selected student'+'\n'+
