@@ -17,6 +17,7 @@ def get_information_selected_student(info):
         print(info.dictMark[name])
     except KeyError as e:
         print(e)
+# work with student's mark
 def get_total_mark(info):
     print("Enter name of student:")
     name = input()
@@ -24,7 +25,7 @@ def get_total_mark(info):
     total_mark=list_of_marks.getTotalMark()
     print(name,'total',total_mark)
 
-information = ' '
+
 print('Welcome!')
 while True:
     print(
